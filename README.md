@@ -40,3 +40,35 @@ All tasks are saved in the browser using **LocalStorage**, so they persist even 
 ```bash
 git clone https://github.com/your-username/todo-app.git
 cd todo-app
+```
+2.**Install dependencies:**
+```bash
+npm install
+```
+3.**start the development server:**
+```bash
+npm start
+```
+4. **Manage your tasks:**
+ Add new tasks, mark them as completed, delete them, and filter your list easily.
+
+## 💻 Technologies Used
+- **React:** Component-based UI library.  
+- **Tailwind CSS:** Utility-first UI libray.  
+- **LocalStorage:** Browser-based storage for persistant task.  
+
+## 📂 Project Structure
+   todo-app/
+├─ src/
+│  ├─ Components/
+│  │  ├─ Input/
+│  │  └─ ToDo/
+│  ├─ App.jsx
+│  └─ index.js
+├─ public/
+├─ package.json
+└─ README.md
+
+## ⚖️ License
+This project is open-source and free to use for learning and personal projects.
+Licensed under the MIT License – see the LICENSE file for details.
