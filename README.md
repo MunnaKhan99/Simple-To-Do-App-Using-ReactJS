@@ -1,12 +1,42 @@
-# React + Vite
+# 📝 React To-Do App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![React](https://img.shields.io/badge/React-18.2.0-blue?logo=react&logoColor=white)](https://reactjs.org/)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.3.2-blue?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-Currently, two official plugins are available:
+A modern, responsive **To-Do App built with React and Tailwind CSS**.  
+It allows users to manage tasks efficiently with features like adding, completing, deleting, and filtering tasks.  
+All tasks are saved in the browser using **LocalStorage**, so they persist even after refreshing the page.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔹 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Add Tasks:** Quickly add tasks using the input field.  
+- **Mark as Completed:** Toggle tasks as completed or pending using checkboxes.  
+- **Delete Tasks:** Remove tasks easily with a single click.  
+- **Filter Tasks:** View **All**, **Completed**, or **Pending** tasks.  
+- **Persistent Storage:** Tasks are automatically saved in LocalStorage.
+
+---
+
+## 🖼 Screenshots
+
+### All Tasks
+![All Tasks](./images/all-tasks.png)  
+
+### Completed Tasks
+![Completed Tasks](./images/completed-tasks.png)  
+
+### Pending Tasks
+![Pending Tasks](./images/pending-tasks.png)  
+
+---
+
+## 🚀 Installation & Usage
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/your-username/todo-app.git
+cd todo-app
