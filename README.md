@@ -58,7 +58,7 @@ npm start
 - **LocalStorage:** Browser-based storage for persistant task.  
 
 ## 📂 Project Structure
-   todo-app/
+   `todo-app/
 ├─ src/
 │  ├─ Components/
 │  │  ├─ Input/
@@ -67,7 +67,7 @@ npm start
 │  └─ index.js
 ├─ public/
 ├─ package.json
-└─ README.md
+└─ README.md`
 
 ## ⚖️ License
 This project is open-source and free to use for learning and personal projects.
